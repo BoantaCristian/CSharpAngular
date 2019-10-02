@@ -1,0 +1,14 @@
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\bin\Debug\netcoreapp2.1\DogsAPI.deps.json
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\bin\Debug\netcoreapp2.1\DogsAPI.runtimeconfig.json
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\bin\Debug\netcoreapp2.1\DogsAPI.runtimeconfig.dev.json
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\bin\Debug\netcoreapp2.1\DogsAPI.dll
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.csprojAssemblyReference.cache
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.csproj.CoreCompileInputs.cache
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.RazorAssemblyInfo.cache
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.RazorAssemblyInfo.cs
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.AssemblyInfoInputs.cache
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.AssemblyInfo.cs
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.RazorTargetAssemblyInfo.cache
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\bin\Debug\netcoreapp2.1\DogsAPI.pdb
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.dll
+D:\AngularCSharp\Dogs\DogsAPI\DogsAPI\obj\Debug\netcoreapp2.1\DogsAPI.pdb

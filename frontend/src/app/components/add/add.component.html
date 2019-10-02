@@ -1,0 +1,15 @@
+<div>
+    <h2>Add</h2>
+    <button routerLink=""> Back </button>
+    <form>
+        <label>Name:</label>
+        <input type="text" [(ngModel)]="newName" name="newName" placeholder="Name">  {{newName}}<br>
+        <label>Number:</label>
+        <input type="text" [(ngModel)]="newNumber" name="newNumber" placeholder="Number"> {{newNumber}}<br>
+        <label>ExpDate:</label>
+        <input type="text" [(ngModel)]="newExpDate" name="newExpDate" placeholder="ExpDate"> {{newExpDate}}<br>
+        <label>CVV:</label>
+        <input type="text" [(ngModel)]="newCVV" name="newCVV" placeholder="CVV"> {{newCVV}}
+        <button (click)="postPayment()">Post</button>
+    </form>
+</div>

@@ -1,0 +1,28 @@
+D:\C# projects\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.deps.json
+D:\C# projects\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.runtimeconfig.json
+D:\C# projects\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.runtimeconfig.dev.json
+D:\C# projects\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.dll
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csprojAssemblyReference.cache
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csproj.CoreCompileInputs.cache
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cache
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cs
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.AssemblyInfoInputs.cache
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.AssemblyInfo.cs
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorTargetAssemblyInfo.cache
+D:\C# projects\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.pdb
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.dll
+D:\C# projects\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.pdb
+D:\AngularCSharp\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.deps.json
+D:\AngularCSharp\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.runtimeconfig.json
+D:\AngularCSharp\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.runtimeconfig.dev.json
+D:\AngularCSharp\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.dll
+D:\AngularCSharp\WebAPI\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.pdb
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csprojAssemblyReference.cache
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csproj.CoreCompileInputs.cache
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cache
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cs
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.AssemblyInfoInputs.cache
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.AssemblyInfo.cs
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorTargetAssemblyInfo.cache
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.dll
+D:\AngularCSharp\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.pdb

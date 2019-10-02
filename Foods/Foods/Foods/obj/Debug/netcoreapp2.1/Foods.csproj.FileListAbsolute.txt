@@ -1,0 +1,14 @@
+D:\AngularCSharp\Foods\Foods\Foods\bin\Debug\netcoreapp2.1\Foods.deps.json
+D:\AngularCSharp\Foods\Foods\Foods\bin\Debug\netcoreapp2.1\Foods.runtimeconfig.json
+D:\AngularCSharp\Foods\Foods\Foods\bin\Debug\netcoreapp2.1\Foods.runtimeconfig.dev.json
+D:\AngularCSharp\Foods\Foods\Foods\bin\Debug\netcoreapp2.1\Foods.dll
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.csprojAssemblyReference.cache
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.csproj.CoreCompileInputs.cache
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.RazorAssemblyInfo.cache
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.RazorAssemblyInfo.cs
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.AssemblyInfoInputs.cache
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.AssemblyInfo.cs
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.RazorTargetAssemblyInfo.cache
+D:\AngularCSharp\Foods\Foods\Foods\bin\Debug\netcoreapp2.1\Foods.pdb
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.dll
+D:\AngularCSharp\Foods\Foods\Foods\obj\Debug\netcoreapp2.1\Foods.pdb

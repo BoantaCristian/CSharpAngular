@@ -1,0 +1,11 @@
+<div>
+    <h2>Home</h2>
+    <button routerLink="/add"> Add Person </button>
+    <h3>list</h3>
+    <div *ngFor="let pay of payments">
+        {{pay.Name}}, {{pay.Number}}, {{pay.ExpDate}}, {{pay.CVV}} 
+        <button (click)="updatePayment(pay.Id)">edit</button>
+        <button (click)="deletePayment(pay.Id)">delete</button>
+    </div>
+
+</div>

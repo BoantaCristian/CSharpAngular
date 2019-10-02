@@ -1,0 +1,164 @@
+mat-card{
+    width: 70%;
+    margin: 0px auto;
+    box-shadow: none !important;
+    background: rgba(255, 255, 255, 0.226);
+    border-radius: 20px;
+}
+
+form{
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.226);
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+mat-form-field{
+    width: 70%;
+    margin: 10px;
+    color: white;
+}
+
+mat-slider{
+    width: 150px;
+}
+
+button{
+    color: white;
+    background: #c671ff;
+    max-width: 100px;
+}
+
+button:hover{
+    background: black;
+    color: #c671ff;
+}
+
+.updateButton{
+    text-align: center !important;
+    margin: 10px;
+}
+
+.hint{
+    margin: 0 auto !important;
+    position: relative;
+    left: -60px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.search{
+    position: absolute;
+    right: 20px;
+    top: 85px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.sex{
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    text-align: left
+}
+
+.label{
+    display:flex;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.labelText{
+    flex: 20%;
+    position: relative;
+    top:10px;
+}
+
+.labelSlidebar{
+    flex: 50%;
+    position: relative;
+    top: -4px !important;
+}
+
+.labelValue{
+    flex: 5%;
+    text-align: right;
+    position: relative;
+    top:10px;
+}
+
+.littleContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.flexTitle{
+    flex: 1;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.flexTitle:hover{
+    cursor: pointer;
+}
+
+.flexContent{
+    flex: 1;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.flexButton{
+    flex: 20%;
+    position: relative;
+    top: -10px;
+}
+
+.flexLabel{
+    flex: 1;
+}
+
+.divider{
+    border: solid 2px rgba(255, 255, 255, 0.432);
+    border-radius: 40%;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+/*change color of label*/
+color: white !important;
+}
+
+::ng-deep .mat-form-field-label {
+/*change color of label*/
+color: white !important;
+}
+
+::ng-deep.mat-form-field-underline {
+/*change color of underline*/
+background-color: white !important;
+} 
+
+::ng-deep.mat-form-field-ripple {
+/*change color of underline when focused*/
+background-color: white !important;;
+}
+::ng-deep .mat-select-value{    
+color: white!important;  }

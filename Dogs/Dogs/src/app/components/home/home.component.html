@@ -1,0 +1,62 @@
+<div>
+    <br><br><br><br>
+
+    <form class="search">
+        <mat-form-field>
+            <input matInput [(ngModel)]="searchRasa" name="searchRasa" placeholder="Search" (input)="search()">
+        </mat-form-field>
+    </form>
+    <br><br><br>
+    <mat-card>
+        <h1>List of dogs</h1><br>
+        <div class="flexContainer">
+            <div class="flexTitle" (click)="sortByRasa()"> Rasa </div>
+            <div class="flexTitle" (click)="sortByVarsta()"> Varsta </div>
+            <div class="flexTitle" (click)="sortByGreutate()"> Greutate </div>
+            <div class="flexTitle" (click)="sortBySex()"> Sex </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="flexContainer hover" *ngFor="let dog of dogs" (click)="populateForm(dog.id, dog.rasa, dog.varsta, dog.greutate, dog.sex)">
+            <div class="flexContent"> {{dog.rasa}} </div>
+            <div class="flexContent"> {{dog.varsta}} </div>
+            <div class="flexContent"> {{dog.greutate}} </div>
+            <div class="flexContent"> {{dog.sex}} </div>
+            </div>
+    </mat-card>
+    <br><br>
+    <h1>Add/Update Dog</h1><br>
+    <div class="hint">*click a dog from the above list and update</div>
+    <form>
+        <mat-form-field>
+            <input matInput [(ngModel)]="newRasa" name="newRasa" placeholder="Rasa">
+        </mat-form-field>
+        <div class="label"> 
+            <div class="labelText">Varsta</div>
+            <div class="labelSlidebar"><mat-slider [(ngModel)]="newVarsta" name="newVarsta" min=1 max=20 thumbLabel></mat-slider></div>
+            <div class="labelValue"> {{newVarsta}} </div>
+        </div>
+        <div class="label"> 
+            <div class="labelText">Greutate</div>
+            <div class="labelSlidebar"><mat-slider [(ngModel)]="newGreutate" name="newGreutate" min=1 max=100 thumbLabel></mat-slider></div>
+            <div class="labelValue"> {{newGreutate}} </div>
+        </div>
+        <div *ngIf="updateId !== -1" class="sex">{{newSex}}</div>
+        <mat-form-field>
+            <mat-label> Select sex </mat-label>
+            <mat-select>
+                <mat-option *ngFor="let s of sex" [value]="s" (click)="selectSex(s)" > {{s}} </mat-option>
+            </mat-select>
+        </mat-form-field><br>
+        <div *ngIf="updateId === -1">
+            <button mat-raised-button  (click)="addDog(newRasa, newVarsta, newGreutate, newSex)">Submit</button><br><br>
+        </div>
+        <div *ngIf="updateId !== -1" class="flexContainer littleContainer">
+            <button class="updateButton flexButton" mat-raised-button (click)="updateDog(updateId, newRasa, newVarsta, newGreutate, newSex)">Update</button><br><br>
+            <button class="updateButton flexButton" mat-raised-button (click)="cancel()">Cancel</button>
+            <button class="updateButton flexButton" mat-raised-button (click)="deleteDog(updateId)">Delete</button>
+        </div>
+    </form>
+    <br><br><br><br>
+</div>
