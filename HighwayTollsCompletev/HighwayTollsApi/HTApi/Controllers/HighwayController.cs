@@ -65,7 +65,7 @@ namespace HTApi.Controllers
         [Route("GetPrice/{idLoc}/{idCateg}")]
         public IActionResult GetPrice(int idLoc, int idCateg)
         {
-            var result = _context.Prices.Where(w => w.Location.Id == idLoc).Where(w => w.Category.Id == idCateg).Include(i => i.Location).Include(i => i.Category).Select(s=>s.Amount);
+            var result = _context.Prices.Where(w => w.Location.Id == idLoc).Where(w => w.Category.Id == idCateg).Include(i => i.Location).Include(i => i.Category).Select(s=>s.Amount).First();
             return Ok(result);
         }
 
@@ -110,6 +110,26 @@ namespace HTApi.Controllers
                 }
             }
             return Ok(income);
+        }
+        [HttpGet("{idStartLocation}/{idFinishLocation}/{idCategory}")]
+        [Route("CalculateRoute/{idStartLocation}/{idFinishLocation}/{idCategory}")]
+        public IActionResult CalculateRoute(int idStartLocation, int idFinishLocation, int idCategory)
+        {
+            //get price and add to a local variable of every location in interval start, finish(if start<finish) / finish start (if start>finish) / 0 if(st = fin)
+            decimal amount = 0;
+            int aux;
+            if(idStartLocation >= idFinishLocation)
+            {
+                aux = idStartLocation;
+                idStartLocation = idFinishLocation;
+                idFinishLocation = aux;
+            }
+            for(int index = idStartLocation; index <= idFinishLocation; index++)
+            {
+                var result = _context.Prices.Where(w => w.Location.Id == index).Where(w => w.Category.Id == idCategory).Include(i => i.Location).Include(i => i.Category).Select(s => s.Amount).First();
+                amount = amount + result;
+            }
+            return Ok(amount);
         }
 
 
